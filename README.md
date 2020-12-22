@@ -130,3 +130,8 @@ Any create method supports all options below to customize a returned dynamic lin
 [twitter-url]: https://twitter.com/chemerisuk
 [twitter-follow]: https://img.shields.io/twitter/follow/chemerisuk.svg?style=social&label=Follow%20me
 [donate-url]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=USD4VHG7CF6FN&source=url
+
+#### Changelog 21 Dec 2020
+
+- Pinning pod spec to 7 causes issues with Google sign-in pods so we've now kept it a bare minimum above the commit when UIWebview was removed i.e. [Pinned at 6.8.0](https://github.com/firebase/firebase-ios-sdk/commit/89a276928c847befeae4c58aad0cd15900630058)
+- Since analytics is not used the pod dependancy has been removed
